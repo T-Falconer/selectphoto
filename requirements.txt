@@ -1,0 +1,4 @@
+certifi==2020.12.5
+numpy==1.19.4
+opencv-python==4.4.0.46
+wincertstore==0.2
