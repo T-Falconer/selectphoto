@@ -80,7 +80,7 @@ def submit():
                     if k == 27:         # wait for ESC key to exit
                         file = open(path2+"/test last index.txt", "a")
                         text = "last index for " + str(path1) + " = " + str(index) + "\n"
-                        index_input.delete(0)
+                        index_input.delete(0, 'end')
                         index_input.insert(0, str(index))
                         file.write(text)
                         file.close()
